@@ -14,9 +14,21 @@
             border-radius: 100px;
         }
         .good:hover{
+            font-family: Verdana;
             cursor: pointer;
             background-color: red;
             box-shadow: 5px 8px 8px #888888
+        }
+        #bad{
+            font-family: 'Times New Roman';
+            width: 100px;
+            height: 50px;
+            background-color: green;
+            border-style: dashed;
+        }
+        #bad:hover{
+            cursor: pointer;
+            background-color: yellow;
         }
     </style>
 </head>
@@ -27,7 +39,7 @@
                 <button class="good">
                     Good
                 </button>
-                <button>
+                <button id="bad">
                     Bad
                 </button>
                 <button class="good">Better</button>
